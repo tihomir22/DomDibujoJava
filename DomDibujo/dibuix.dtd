@@ -1,0 +1,15 @@
+<!ELEMENT dibuix (rectangle, cercle)>
+<!ELEMENT rectangle (figurasimple, alcada, amplada)>
+<!ELEMENT figurasimple (figura, colorlinia, colorfigura)>
+<!ELEMENT figura (posicio, escala, rotacio)>
+<!ELEMENT posicio (x, y)>
+<!ELEMENT x (#PCDATA)>
+<!ELEMENT y (#PCDATA)>
+<!ELEMENT escala (#PCDATA)>
+<!ELEMENT rotacio (#PCDATA)>
+<!ELEMENT colorlinia (#PCDATA)>
+<!ELEMENT colorfigura (#PCDATA)>
+<!ELEMENT alcada (#PCDATA)>
+<!ELEMENT amplada (#PCDATA)>
+<!ELEMENT cercle (figurasimple, radi)>
+<!ELEMENT radi (#PCDATA)>
